@@ -1,18 +1,18 @@
-fruits = ["apple", "banana", "orange", "grape", "kiwi", "mango", "strawberry", "blueberry", "watermelon", "pineapple"]
+#fruits = ["apple", "banana", "orange", "grape", "kiwi", "mango", "strawberry", "blueberry", "watermelon", "pineapple"]
   #        0         1         2         3         4         5         6         7         8          9        10
-name= "mishal"
-print(fruits)
-print(fruits[6])
-print(len(name))  # length of the string
-print(f"length of the list,number: {len(fruits)}")
-n=3
-print(type(n))
-print(type(name))
-print(type(fruits))
-f=list(fruits)
-letters=list(name)
-numbers=list(range(6))
-print(numbers)
+#name= "mishal"
+#print(fruits)
+#print(fruits[6])
+#print(len(name))  # length of the string
+#print(f"length of the list,number: {len(fruits)}")
+#n=3
+#print(type(n))
+#print(type(name))
+#print(type(fruits))
+#f=list(fruits)
+#letters=list(name)
+#numbers=list(range(6))
+#print(numbers)
 
 
 #         -5        -4       -3        -2       -1
@@ -80,3 +80,20 @@ fa=list(fruits)
 fruits.reverse()
 print(fruits)
 print(fa)
+tropical_fruts=['mango','chikku']
+print(fruits+tropical_fruts)
+
+#list comprehension
+#newlist=[expresseion for item in iterable if condition]
+
+num=[2,3,4,87,94,33]
+odd_num =[x for x in num if x%2!=0]
+print(odd_num)
+
+numbers = [2,3,4,87,94,897,37,6546]
+odd_numbers=[]
+for x in numbers:
+  if x%2!=0:
+    odd_numbers.append(x)
+    
+print(odd_numbers)
